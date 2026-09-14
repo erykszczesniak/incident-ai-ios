@@ -1,0 +1,9 @@
+// swift-tools-version: 6.0
+import PackageDescription
+
+let package = Package(
+    name: "IncidentCore",
+    platforms: [.iOS(.v17), .macOS(.v14), .watchOS(.v10)],
+    products: [.library(name: "IncidentCore", targets: ["IncidentCore"])],
+    targets: [.target(name: "IncidentCore"), .testTarget(name: "IncidentCoreTests", dependencies: ["IncidentCore"])]
+)

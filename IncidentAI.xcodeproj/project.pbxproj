@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00302683493330A44949FD84 /* PostmortemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37DBAE573290843D84A9A7 /* PostmortemView.swift */; };
+		029456D8C8BF3C5F67A82871 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5116E7C118696941FDD7BCC4 /* SettingsView.swift */; };
+		13098CC0752C84C231DB94DB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A97A684C05F3A5B34D0B4E0F /* PrivacyInfo.xcprivacy */; };
+		14767E1555971E341CEF398F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DF0CAC5A91E1FBCEA1822627 /* PrivacyInfo.xcprivacy */; };
+		27B95581482B7F2F5D9758D4 /* IncidentAIWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96522915A759B65F38FBFCC3 /* IncidentAIWidgets.swift */; };
+		3315135C8C261138BB9E61D7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 28CDCCBA72F8C198FACD65DC /* PrivacyInfo.xcprivacy */; };
+		3FD28E59B7E6B43E24281A0D /* PushAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE59C72070F71DD18017BC /* PushAndExtensions.swift */; };
+		4B2DA16F3A6369E58EB0B8BF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9687FDFE5936188DAE2FD0B7 /* DashboardView.swift */; };
+		59A0F8C6D2EC300ED3C681E8 /* IncidentActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F93E913BF62505552D0E6 /* IncidentActivityAttributes.swift */; };
+		5D1BB0B2650932B2BFE0DC65 /* IncidentAIWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C62932AA94B6E1E7725258C9 /* IncidentAIWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6657363AB202D6673CF0D62C /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38502E5819A3E84577529CF /* AnalysisView.swift */; };
+		6B712817421C4CE530D05A44 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01614662F6ECE174CE34CE41 /* Theme.swift */; };
+		737554D3D896347781C2AE4F /* IncidentAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E94E98D9C292EF2CBF29F /* IncidentAITests.swift */; };
+		A7045C5AC7D991F246446349 /* IncidentCore in Frameworks */ = {isa = PBXBuildFile; productRef = 930B0CDDC68A43E461F9CD12 /* IncidentCore */; };
+		A7CFB6108E574EBE161239BC /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B9EBAF17B8F8D5049B03E5 /* AppModel.swift */; };
+		B0D6E71F735F59320AC2B756 /* DiagnosticMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B18552420202EF69D2BEF /* DiagnosticMonitor.swift */; };
+		B1CB7EE985E683DEB49E1827 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373D69ACF3E4339CF94E7CA8 /* TimelineView.swift */; };
+		B5E72E63A556CE04BB9DC484 /* IncidentCore in Frameworks */ = {isa = PBXBuildFile; productRef = CC9113E5876624FFFE442454 /* IncidentCore */; };
+		BB8AF9FA49E7519D0CAD1A57 /* IncidentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86431D3D071C1914121173 /* IncidentsView.swift */; };
+		C8917C8EA44D1394E2172405 /* IncidentAIWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471D6DE4B8AB0F83F5B69E1 /* IncidentAIWatchApp.swift */; };
+		D997C5262209DA8AEF854D9D /* IncidentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2C8A7435D55C34792AB27A /* IncidentDetailView.swift */; };
+		E67681E48C77D8AE09932AB3 /* IncidentActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22F93E913BF62505552D0E6 /* IncidentActivityAttributes.swift */; };
+		EFF57A7058DC4456AF596E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEDC416B49581578007D722 /* Assets.xcassets */; };
+		FFEC08B1CBDA55FFAE1358A7 /* IncidentAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C90DC229F3067FA92D464D /* IncidentAIApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39CC844D19366F494BF3AB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D09F483F6D8CBEB1084854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8345D06CBE01F8FFF6CF05;
+			remoteInfo = IncidentAIWidgets;
+		};
+		F908A9D51A41FECCCE6CED18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D09F483F6D8CBEB1084854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993CC5C9DB8FD8130A079867;
+			remoteInfo = IncidentAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9EF80AC71EA8B577EBB8C22 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D1BB0B2650932B2BFE0DC65 /* IncidentAIWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01614662F6ECE174CE34CE41 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0BB39280895B1B17695408D2 /* IncidentAIWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncidentAIWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C90DC229F3067FA92D464D /* IncidentAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentAIApp.swift; sourceTree = "<group>"; };
+		28CDCCBA72F8C198FACD65DC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2C8D31DF03C8C4C0C56C6F0E /* IncidentAIWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IncidentAIWidgets.entitlements; sourceTree = "<group>"; };
+		3737DD202117D671FC09FE69 /* incident-ai-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "incident-ai-ios"; path = .; sourceTree = SOURCE_ROOT; };
+		373D69ACF3E4339CF94E7CA8 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		38B9EBAF17B8F8D5049B03E5 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		3E4B18552420202EF69D2BEF /* DiagnosticMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticMonitor.swift; sourceTree = "<group>"; };
+		4A37DBAE573290843D84A9A7 /* PostmortemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostmortemView.swift; sourceTree = "<group>"; };
+		4D86431D3D071C1914121173 /* IncidentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsView.swift; sourceTree = "<group>"; };
+		5116E7C118696941FDD7BCC4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		518E94E98D9C292EF2CBF29F /* IncidentAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentAITests.swift; sourceTree = "<group>"; };
+		6C2706E7F6338CEE928D58E1 /* IncidentAITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IncidentAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839B062173BE49CE11E1B91F /* IncidentAI.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = IncidentAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96522915A759B65F38FBFCC3 /* IncidentAIWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentAIWidgets.swift; sourceTree = "<group>"; };
+		9687FDFE5936188DAE2FD0B7 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A4DFE5A0B954F32D383CEAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A97A684C05F3A5B34D0B4E0F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B5EE59C72070F71DD18017BC /* PushAndExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAndExtensions.swift; sourceTree = "<group>"; };
+		C22F93E913BF62505552D0E6 /* IncidentActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentActivityAttributes.swift; sourceTree = "<group>"; };
+		C62932AA94B6E1E7725258C9 /* IncidentAIWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = IncidentAIWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D471D6DE4B8AB0F83F5B69E1 /* IncidentAIWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentAIWatchApp.swift; sourceTree = "<group>"; };
+		D7455C269527A1A19427E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D79D7E1FBB3E8BF990E5F4DB /* IncidentAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IncidentAI.entitlements; sourceTree = "<group>"; };
+		DF0CAC5A91E1FBCEA1822627 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		ECEDC416B49581578007D722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38502E5819A3E84577529CF /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		FD2C8A7435D55C34792AB27A /* IncidentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentDetailView.swift; sourceTree = "<group>"; };
+		"TEMP_67249896-03B6-479C-B8B1-361AF8E69660" /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		"TEMP_87DF64FF-8C68-4DED-88CC-689332BD3E79" /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00EB59C2F87CB969699768F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E72E63A556CE04BB9DC484 /* IncidentCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368233122DFD0559CA3B2A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7045C5AC7D991F246446349 /* IncidentCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018967927C8A238E20B1C4BB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				19C90DC229F3067FA92D464D /* IncidentAIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		03284D7807BB6E85D572F6DE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38B9EBAF17B8F8D5049B03E5 /* AppModel.swift */,
+				3E4B18552420202EF69D2BEF /* DiagnosticMonitor.swift */,
+				B5EE59C72070F71DD18017BC /* PushAndExtensions.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0D1D49A351F57005AB570C23 /* IncidentAIWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D31DF03C8C4C0C56C6F0E /* IncidentAIWidgets.entitlements */,
+				96522915A759B65F38FBFCC3 /* IncidentAIWidgets.swift */,
+				A4DFE5A0B954F32D383CEAC1 /* Info.plist */,
+				DF0CAC5A91E1FBCEA1822627 /* PrivacyInfo.xcprivacy */,
+			);
+			path = IncidentAIWidgets;
+			sourceTree = "<group>";
+		};
+		1A39D0EB49EC2F8F376DA132 /* IncidentAI */ = {
+			isa = PBXGroup;
+			children = (
+				018967927C8A238E20B1C4BB /* App */,
+				03284D7807BB6E85D572F6DE /* Core */,
+				EEC0D9A99F3869FCDCAEBFE8 /* DesignSystem */,
+				8A8B28AFA02AB3C2DF7FD6ED /* Features */,
+				685C5037854EEE86FC89BFF0 /* Resources */,
+			);
+			path = IncidentAI;
+			sourceTree = "<group>";
+		};
+		2D5691A0DA7E362D6AD51DE0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3737DD202117D671FC09FE69 /* incident-ai-ios */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		39E01FEF092FAAB02591C0D9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C22F93E913BF62505552D0E6 /* IncidentActivityAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4EDB9B76CEEBBABC1D917DCD = {
+			isa = PBXGroup;
+			children = (
+				1A39D0EB49EC2F8F376DA132 /* IncidentAI */,
+				6CBC2C0FAEC9A53854ADD875 /* IncidentAITests */,
+				ED42C6E0A02332A353B51F8D /* IncidentAIWatch */,
+				0D1D49A351F57005AB570C23 /* IncidentAIWidgets */,
+				2D5691A0DA7E362D6AD51DE0 /* Packages */,
+				39E01FEF092FAAB02591C0D9 /* Shared */,
+				881AB64C2F9E6586355F3AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685C5037854EEE86FC89BFF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECEDC416B49581578007D722 /* Assets.xcassets */,
+				D79D7E1FBB3E8BF990E5F4DB /* IncidentAI.entitlements */,
+				D7455C269527A1A19427E306 /* Info.plist */,
+				A97A684C05F3A5B34D0B4E0F /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6CBC2C0FAEC9A53854ADD875 /* IncidentAITests */ = {
+			isa = PBXGroup;
+			children = (
+				518E94E98D9C292EF2CBF29F /* IncidentAITests.swift */,
+			);
+			path = IncidentAITests;
+			sourceTree = "<group>";
+		};
+		881AB64C2F9E6586355F3AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839B062173BE49CE11E1B91F /* IncidentAI.app */,
+				6C2706E7F6338CEE928D58E1 /* IncidentAITests.xctest */,
+				0BB39280895B1B17695408D2 /* IncidentAIWatch.app */,
+				C62932AA94B6E1E7725258C9 /* IncidentAIWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A8B28AFA02AB3C2DF7FD6ED /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F38502E5819A3E84577529CF /* AnalysisView.swift */,
+				9687FDFE5936188DAE2FD0B7 /* DashboardView.swift */,
+				FD2C8A7435D55C34792AB27A /* IncidentDetailView.swift */,
+				4D86431D3D071C1914121173 /* IncidentsView.swift */,
+				4A37DBAE573290843D84A9A7 /* PostmortemView.swift */,
+				5116E7C118696941FDD7BCC4 /* SettingsView.swift */,
+				373D69ACF3E4339CF94E7CA8 /* TimelineView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		ED42C6E0A02332A353B51F8D /* IncidentAIWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D471D6DE4B8AB0F83F5B69E1 /* IncidentAIWatchApp.swift */,
+				28CDCCBA72F8C198FACD65DC /* PrivacyInfo.xcprivacy */,
+			);
+			path = IncidentAIWatch;
+			sourceTree = "<group>";
+		};
+		EEC0D9A99F3869FCDCAEBFE8 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				01614662F6ECE174CE34CE41 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		"TEMP_5B93AA66-08B3-4E59-967A-94CC77546B84" /* incident-ai-ios */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_67249896-03B6-479C-B8B1-361AF8E69660" /* Debug.xcconfig */,
+				"TEMP_87DF64FF-8C68-4DED-88CC-689332BD3E79" /* Release.xcconfig */,
+			);
+			path = "incident-ai-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F73A7858C25CC34EC6DE64 /* IncidentAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB6C0925A0A0A4EA72613AB /* Build configuration list for PBXNativeTarget "IncidentAITests" */;
+			buildPhases = (
+				348E7FDF47DD5BCDEC1BBFF5 /* Sources */,
+				00EB59C2F87CB969699768F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43302404A8CEA3A2F71EB7BF /* PBXTargetDependency */,
+			);
+			name = IncidentAITests;
+			packageProductDependencies = (
+				CC9113E5876624FFFE442454 /* IncidentCore */,
+			);
+			productName = IncidentAITests;
+			productReference = 6C2706E7F6338CEE928D58E1 /* IncidentAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		993CC5C9DB8FD8130A079867 /* IncidentAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8D857F7D27086855C5DD26 /* Build configuration list for PBXNativeTarget "IncidentAI" */;
+			buildPhases = (
+				48B2F9A5E1AC6414147640A9 /* Sources */,
+				7E5D75B2618227B3090D09B4 /* Resources */,
+				368233122DFD0559CA3B2A26 /* Frameworks */,
+				B9EF80AC71EA8B577EBB8C22 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15B203049117C336762F5129 /* PBXTargetDependency */,
+			);
+			name = IncidentAI;
+			packageProductDependencies = (
+				930B0CDDC68A43E461F9CD12 /* IncidentCore */,
+			);
+			productName = IncidentAI;
+			productReference = 839B062173BE49CE11E1B91F /* IncidentAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF8345D06CBE01F8FFF6CF05 /* IncidentAIWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2B9174C8430A6AB364D7C7 /* Build configuration list for PBXNativeTarget "IncidentAIWidgets" */;
+			buildPhases = (
+				51FE38529411ED4BC8C9E3B5 /* Sources */,
+				5E2335667BF79B698F4F4BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IncidentAIWidgets;
+			packageProductDependencies = (
+			);
+			productName = IncidentAIWidgets;
+			productReference = C62932AA94B6E1E7725258C9 /* IncidentAIWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F08E2300715666AA234A1DE2 /* IncidentAIWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1525E28C5B1E014D6C280EF /* Build configuration list for PBXNativeTarget "IncidentAIWatch" */;
+			buildPhases = (
+				E678E299AFAD99AF7B3BBDDB /* Sources */,
+				362DA368912EA45AFA9B5981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IncidentAIWatch;
+			packageProductDependencies = (
+			);
+			productName = IncidentAIWatch;
+			productReference = 0BB39280895B1B17695408D2 /* IncidentAIWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D09F483F6D8CBEB1084854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					57F73A7858C25CC34EC6DE64 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					993CC5C9DB8FD8130A079867 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					CF8345D06CBE01F8FFF6CF05 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F08E2300715666AA234A1DE2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6EEC8A29CA14567862E7C90D /* Build configuration list for PBXProject "IncidentAI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4EDB9B76CEEBBABC1D917DCD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3560DF7424D7DDF01C1523AA /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 881AB64C2F9E6586355F3AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993CC5C9DB8FD8130A079867 /* IncidentAI */,
+				57F73A7858C25CC34EC6DE64 /* IncidentAITests */,
+				F08E2300715666AA234A1DE2 /* IncidentAIWatch */,
+				CF8345D06CBE01F8FFF6CF05 /* IncidentAIWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362DA368912EA45AFA9B5981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3315135C8C261138BB9E61D7 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2335667BF79B698F4F4BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14767E1555971E341CEF398F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5D75B2618227B3090D09B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF57A7058DC4456AF596E95 /* Assets.xcassets in Resources */,
+				13098CC0752C84C231DB94DB /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348E7FDF47DD5BCDEC1BBFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737554D3D896347781C2AE4F /* IncidentAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B2F9A5E1AC6414147640A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6657363AB202D6673CF0D62C /* AnalysisView.swift in Sources */,
+				A7CFB6108E574EBE161239BC /* AppModel.swift in Sources */,
+				4B2DA16F3A6369E58EB0B8BF /* DashboardView.swift in Sources */,
+				B0D6E71F735F59320AC2B756 /* DiagnosticMonitor.swift in Sources */,
+				FFEC08B1CBDA55FFAE1358A7 /* IncidentAIApp.swift in Sources */,
+				59A0F8C6D2EC300ED3C681E8 /* IncidentActivityAttributes.swift in Sources */,
+				D997C5262209DA8AEF854D9D /* IncidentDetailView.swift in Sources */,
+				BB8AF9FA49E7519D0CAD1A57 /* IncidentsView.swift in Sources */,
+				00302683493330A44949FD84 /* PostmortemView.swift in Sources */,
+				3FD28E59B7E6B43E24281A0D /* PushAndExtensions.swift in Sources */,
+				029456D8C8BF3C5F67A82871 /* SettingsView.swift in Sources */,
+				6B712817421C4CE530D05A44 /* Theme.swift in Sources */,
+				B1CB7EE985E683DEB49E1827 /* TimelineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FE38529411ED4BC8C9E3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B95581482B7F2F5D9758D4 /* IncidentAIWidgets.swift in Sources */,
+				E67681E48C77D8AE09932AB3 /* IncidentActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E678E299AFAD99AF7B3BBDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8917C8EA44D1394E2172405 /* IncidentAIWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15B203049117C336762F5129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8345D06CBE01F8FFF6CF05 /* IncidentAIWidgets */;
+			targetProxy = D39CC844D19366F494BF3AB8 /* PBXContainerItemProxy */;
+		};
+		43302404A8CEA3A2F71EB7BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993CC5C9DB8FD8130A079867 /* IncidentAI */;
+			targetProxy = F908A9D51A41FECCCE6CED18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17BCEA3A3CFA9620C0C2A983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		2F9CF9C869A13AAF697E27F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IncidentAI.app/IncidentAI";
+			};
+			name = Debug;
+		};
+		481F06AFF25891D829F04029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		53A2DA214283835107837983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IncidentAIWidgets/IncidentAIWidgets.entitlements;
+				INFOPLIST_FILE = IncidentAIWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Incident AI Widgets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		635BEAAF0DE3F5E9F0736968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IncidentAI.app/IncidentAI";
+			};
+			name = Release;
+		};
+		63A528B55394804019F379D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_CFBundleDisplayName = "Incident AI";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.erykszczesniak.IncidentAI;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		9D575B9F078C1CA88D3D9F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_67249896-03B6-479C-B8B1-361AF8E69660" /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IncidentAI/Resources/IncidentAI.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IncidentAI/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Incident AI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E9BD99B16E13631A6AE4899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = IncidentAIWidgets/IncidentAIWidgets.entitlements;
+				INFOPLIST_FILE = IncidentAIWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Incident AI Widgets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A786B5D7276E7912288E9B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_CFBundleDisplayName = "Incident AI";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.erykszczesniak.IncidentAI;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		D9353207E3CBF2EE96B2AFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = "TEMP_87DF64FF-8C68-4DED-88CC-689332BD3E79" /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IncidentAI/Resources/IncidentAI.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IncidentAI/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Incident AI";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erykszczesniak.IncidentAI;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EEC8A29CA14567862E7C90D /* Build configuration list for PBXProject "IncidentAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481F06AFF25891D829F04029 /* Debug */,
+				17BCEA3A3CFA9620C0C2A983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1525E28C5B1E014D6C280EF /* Build configuration list for PBXNativeTarget "IncidentAIWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A528B55394804019F379D2 /* Debug */,
+				A786B5D7276E7912288E9B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD2B9174C8430A6AB364D7C7 /* Build configuration list for PBXNativeTarget "IncidentAIWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9BD99B16E13631A6AE4899 /* Debug */,
+				53A2DA214283835107837983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA8D857F7D27086855C5DD26 /* Build configuration list for PBXNativeTarget "IncidentAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D575B9F078C1CA88D3D9F2C /* Debug */,
+				D9353207E3CBF2EE96B2AFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAB6C0925A0A0A4EA72613AB /* Build configuration list for PBXNativeTarget "IncidentAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9CF9C869A13AAF697E27F3 /* Debug */,
+				635BEAAF0DE3F5E9F0736968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3560DF7424D7DDF01C1523AA /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		930B0CDDC68A43E461F9CD12 /* IncidentCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IncidentCore;
+		};
+		CC9113E5876624FFFE442454 /* IncidentCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IncidentCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80D09F483F6D8CBEB1084854 /* Project object */;
+}

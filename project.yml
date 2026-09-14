@@ -1,0 +1,113 @@
+name: IncidentAI
+options:
+  bundleIdPrefix: com.erykszczesniak
+  deploymentTarget:
+    iOS: '18.0'
+    watchOS: '11.0'
+  xcodeVersion: '26.0'
+  createIntermediateGroups: true
+packages:
+  IncidentCore:
+    path: .
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    SWIFT_STRICT_CONCURRENCY: complete
+    DEVELOPMENT_TEAM: ''
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+    GENERATE_INFOPLIST_FILE: YES
+targets:
+  IncidentAI:
+    type: application
+    platform: iOS
+    sources:
+      - IncidentAI
+      - Shared
+    dependencies:
+      - package: IncidentCore
+      - target: IncidentAIWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.erykszczesniak.IncidentAI
+        INFOPLIST_KEY_CFBundleDisplayName: Incident AI
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.productivity
+        INFOPLIST_KEY_NSSupportsLiveActivities: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        TARGETED_DEVICE_FAMILY: '1,2'
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: IncidentAI/Resources/Info.plist
+      properties:
+        CFBundleURLTypes:
+          - CFBundleURLName: com.erykszczesniak.IncidentAI
+            CFBundleURLSchemes: [incidentai]
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        NSLocalNetworkUsageDescription: Connect to your local Incident AI development server.
+        UIBackgroundModes: [remote-notification]
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+    entitlements:
+      path: IncidentAI/Resources/IncidentAI.entitlements
+      properties:
+        aps-environment: $(APNS_ENVIRONMENT)
+        com.apple.security.application-groups: [group.com.erykszczesniak.IncidentAI]
+    configFiles:
+      Debug: Debug.xcconfig
+      Release: Release.xcconfig
+  IncidentAIWidgets:
+    type: app-extension
+    platform: iOS
+    sources: [IncidentAIWidgets, Shared]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.erykszczesniak.IncidentAI.widgets
+        SKIP_INSTALL: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Incident AI Widgets
+    info:
+      path: IncidentAIWidgets/Info.plist
+      properties:
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: IncidentAIWidgets/IncidentAIWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.erykszczesniak.IncidentAI]
+  IncidentAIWatch:
+    type: application
+    platform: watchOS
+    sources: [IncidentAIWatch]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.erykszczesniak.IncidentAI.watchkitapp
+        INFOPLIST_KEY_CFBundleDisplayName: Incident AI
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: com.erykszczesniak.IncidentAI
+        INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp: NO
+        INFOPLIST_KEY_WKApplication: YES
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: '4'
+  IncidentAITests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [IncidentAITests]
+    dependencies:
+      - target: IncidentAI
+      - package: IncidentCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.erykszczesniak.IncidentAI.tests
+schemes:
+  IncidentAI:
+    build:
+      targets:
+        IncidentAI: all
+        IncidentAIWidgets: all
+    test:
+      targets: [IncidentAITests]
+  IncidentAIWatch:
+    build:
+      targets:
+        IncidentAIWatch: all
